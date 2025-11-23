@@ -158,3 +158,30 @@ cd frontend
 npm install
 npm start
 
+## 📡 API Endpoints
+
+### **POST /start-interview**
+Starts the interview and returns the first question.
+
+### **POST /answer**
+Sends user answer → returns:
+- next question  
+- or final feedback  
+
+Supports both **text & voice** flows.
+
+---
+
+## 🧩 Design Decisions
+- Follow-up logic mimics real interviewers  
+- Resume summarization enables personalization  
+- Supportive/Strict modes simulate interviewer variety  
+- End interview button allows flexible flow  
+
+---
+
+## 🚀 Future Improvements
+- ATS-style resume scoring  
+- Coding interview module  
+- Multi-round interview support  
+- Downloadable PDF feedback  
